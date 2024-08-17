@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Restaurante Demo Examen</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Restaurante Demo Examen</h1>
+        </header>
+        
+        <section class="menu">
+            <h2>Carta</h2>
+            
+            <div class="menu-section">
+                <h3>Entradas</h3>
+                <ul>
+                    <li onclick="showDetails('muzzarela')">Muzzarela Sticks</li>
+                    <li onclick="showDetails('pizza')">Pizza</li>
+                    <li onclick="showDetails('vegetariana')">Pizza Vegetariana</li>
+                </ul>
+            </div>
+            
+            <div class="menu-section">
+                <h3>Platos Principales</h3>
+                <ul>
+                    <li onclick="showDetails('vegetariana')">Pizza Vegetariana</li>
+                </ul>
+            </div>
+            
+            <div class="menu-section">
+                <h3>Ensaladas</h3>
+                <ul>
+                    <!-- Añade elementos de ensaladas aquí -->
+                </ul>
+            </div>
+        </section>
+        
+        <div class="image-container">
+            <img id="muzzarela" src="muzzarela.jpg" alt="Muzzarela Sticks" class="hidden">
+            <img id="pizza" src="pizza.jpg" alt="Pizza" class="hidden">
+            <img id="vegetariana" src="vegetariana.jpg" alt="Pizza Vegetariana" class="hidden">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

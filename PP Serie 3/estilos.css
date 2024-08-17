@@ -1,0 +1,79 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Estilo de encabezado */
+header h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Sección del menú */
+.menu h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.menu-section {
+    margin-bottom: 30px;
+}
+
+.menu-section h3 {
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.1em;
+    padding: 5px 0;
+    color: #444;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+ul li:hover {
+    color: #007BFF;
+}
+
+/* Estilo de la imagen */
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.image-container img.hidden {
+    display: none;
+}

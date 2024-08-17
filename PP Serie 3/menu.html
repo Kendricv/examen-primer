@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Comida</title>
+    <link rel="stylesheet" href="comida.css">
+</head>
+<body>
+    <header>
+        <h1>Restaurante Delicioso</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('entradas')">Entradas</a></li>
+                <li><a href="#" onclick="showSection('platos-principales')">Platos Principales</a></li>
+                <li><a href="#" onclick="showSection('postres')">Postres</a></li>
+                <li><a href="#" onclick="showSection('bebidas')">Bebidas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="entradas" class="menu-section">
+        <h2>Entradas</h2>
+        <div class="menu-item">
+            <h3>Ensalada César</h3>
+            <p>Lechuga, crutones, queso parmesano, y aderezo César.</p>
+            <span>Q5.00</span>
+        </div>
+        <div class="menu-item">
+            <h3>Bruschetta</h3>
+            <p>Pan tostado con tomate, ajo y albahaca.</p>
+            <span>Q4.50</span>
+        </div>
+    </section>
+
+    <section id="platos-principales" class="menu-section" style="display:none;">
+        <h2>Platos Principales</h2>
+        <div class="menu-item">
+            <h3>Spaghetti Bolognese</h3>
+            <p>Pasta con salsa de carne y tomate.</p>
+            <span>Q10.00</span>
+        </div>
+        <div class="menu-item">
+            <h3>Pollo a la Parrilla</h3>
+            <p>Pechuga de pollo marinada y asada, servida con verduras.</p>
+            <span>Q12.00</span>
+        </div>
+    </section>
+
+    <section id="postres" class="menu-section" style="display:none;">
+        <h2>Postres</h2>
+        <div class="menu-item">
+            <h3>Tiramisú</h3>
+            <p>Postre italiano con café, mascarpone y cacao.</p>
+            <span>Q6.00</span>
+        </div>
+        <div class="menu-item">
+            <h3>Cheesecake</h3>
+            <p>Tarta de queso con base de galleta y salsa de frutas.</p>
+            <span>Q5.50</span>
+        </div>
+    </section>
+
+    <section id="bebidas" class="menu-section" style="display:none;">
+        <h2>Bebidas</h2>
+        <div class="menu-item">
+            <h3>Vino Tinto</h3>
+            
+            <p>Copa de vino tinto seleccionado.</p>
+            <span>Q7.00</span>
+        </div>
+        <div class="menu-item">
+            <h3>Café Espresso</h3>
+            <p>Intenso café espresso.</p>
+            <span>Q3.00</span>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Restaurante Delicioso. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
